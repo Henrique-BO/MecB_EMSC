@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e51a1a7-d580-44d1-9722-ed891ef7e1e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MecB_EMSC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MecB_EMSC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EMSC1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EMSC1.py" beforeDir="false" afterPath="$PROJECT_DIR$/EMSC1.py" afterDir="false" />
     </list>
@@ -27,8 +25,20 @@
     <expand />
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="3d35101d-0276-4b97-9de3-a0d0d374a905">
+    <option name="files">
+      <option value="EMSC1.ipynb" />
+    </option>
   </component>
   <component name="ProjectId" id="1ZGKA5A6Er8u76ZqLx4gUcR8s8W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,6 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -48,6 +59,9 @@
       <module name="MecB_EMSC" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -101,7 +115,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584631751112</updated>
-      <workItem from="1584631759902" duration="6643000" />
+      <workItem from="1584631759902" duration="10207000" />
+      <workItem from="1584712055711" duration="596000" />
+      <workItem from="1584987869288" duration="253000" />
+      <workItem from="1585697757092" duration="690000" />
     </task>
     <servers />
   </component>
@@ -145,10 +162,10 @@
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="325" y="103" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1584648956572" />
-    <state x="540" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1584631810424">
+    <state x="540" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1584987887583">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="540" y="346" key="com.intellij.ide.util.TipDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1584631810424" />
+    <state x="540" y="346" key="com.intellij.ide.util.TipDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1584987887583" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MecB_EMSC$EMSC1.coverage" NAME="EMSC1 Coverage Results" MODIFIED="1584648006768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

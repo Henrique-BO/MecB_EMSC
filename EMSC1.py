@@ -122,3 +122,4 @@ solE = odeint(massa_mola_amort, [x0, v0], t, args=(F, c))
 draw_plots(solE, t, F, "Caso E")
 
 #TODO: Analisar os graficos -- obter frequencias de oscilacao, interpretar resultado, apresentar equacoes (jupyter notebook provavelmente)
+#TODO: Fix .gitignore
