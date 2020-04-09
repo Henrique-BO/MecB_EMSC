@@ -56,10 +56,10 @@ def F_zero(t):
 # Condicoes iniciais
 t = np.linspace(0, 3, 100)
 x0 = 0.10
-v0 = 0.0
+x_dot0 = 0.0
 F = F_zero
-# Resolve a EDO
-solA = odeint(massa_mola_amort, [x0, v0], t, args=(F, c))
+# Resolx_dote a EDO
+solA = odeint(massa_mola_amort, [x0, x_dot0], t, args=(F, c))
 # Graficos
 draw_plots(solA, t, F, "Caso A")
 
@@ -68,10 +68,10 @@ draw_plots(solA, t, F, "Caso A")
 # Condicoes iniciais
 t = np.linspace(0, 3, 100)
 x0 = 0.0
-v0 = 1.0
+x_dot0 = 1.0
 F = F_zero
 # Resolve a EDO
-solB = odeint(massa_mola_amort, [x0, v0], t, args=(F, c))
+solB = odeint(massa_mola_amort, [x0, x_dot0], t, args=(F, c))
 # Graficos
 draw_plots(solB, t, F, "Caso B")
 
@@ -80,11 +80,11 @@ draw_plots(solB, t, F, "Caso B")
 # Condicoes iniciais
 t = np.linspace(0, 3, 100)
 x0 = 0.10
-v0 = 1.0
+x_dot0 = 1.0
 F = F_zero
 c = 377
 # Resolve a EDO
-solC = odeint(massa_mola_amort, [x0, v0], t, args=(F, c))
+solC = odeint(massa_mola_amort, [x0, x_dot0], t, args=(F, c))
 # Graficos
 draw_plots(solC, t, F, "Caso C")
 
@@ -98,11 +98,11 @@ def F_D(t):
 # Condicoes iniciais
 t = np.linspace(0, 5, 100)
 x0 = 0.0
-v0 = 0.0
+x_dot0 = 0.0
 F = F_D
 c = 37.7
 # Resolve a EDO
-solD = odeint(massa_mola_amort, [x0, v0], t, args=(F, c))
+solD = odeint(massa_mola_amort, [x0, x_dot0], t, args=(F, c))
 # Graficos
 draw_plots(solD, t, F, "Caso D")
 
@@ -113,11 +113,11 @@ def F_E(t):
 # Condicoes iniciais
 t = np.linspace(0, 5, 100)
 x0 = 0.0
-v0 = 0.0
+x_dot0 = 0.0
 F = F_E
 c = 37.7
 # Resolve a EDO
-solE = odeint(massa_mola_amort, [x0, v0], t, args=(F, c))
+solE = odeint(massa_mola_amort, [x0, x_dot0], t, args=(F, c))
 # Graficos
 draw_plots(solE, t, F, "Caso E")
 
